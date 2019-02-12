@@ -1,0 +1,15 @@
+{
+  "name": "proxy-bar",
+  "version": "1.0.0",
+  "description": "mock server for developing and testing purpose",
+  "main": "proxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "forestif",
+  "license": "ISC",
+  "dependencies": {
+    "http-proxy": "^1.17.0",
+    "http-proxy-rules": "^1.1.3"
+  }
+}
