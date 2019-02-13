@@ -1,16 +1,9 @@
 var http = require("http"),
-  fs = require('fs'),
   httpProxy = require("http-proxy"),
   proxyRulesManager = require("./proxyRulesmanager"),
   {getFile, setFile} = require("./dataMock")
 
 const configServer = /configureMockServer/;
-
-const secureOptions = {
-  pfx: fs.readFileSync('certs/browsersync.pfx'),
-  passphrase: ''
-}
-
 
 const PRM = new proxyRulesManager();
 
